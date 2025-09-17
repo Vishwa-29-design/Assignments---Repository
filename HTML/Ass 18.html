@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Library</title>
+</head>
+<body>
+
+    <h1 id="top">Media Library Collection</h1>
+    <p>This page contains my favorite images, songs, videos, and online embeds.</p>
+
+    <nav>
+        <a href="#images">Images</a> |
+        <a href="#audio">Audio</a> |
+        <a href="#video">Video</a> |
+        <a href="#embeds">Embeds</a>
+    </nav>
+
+    <hr>
+
+    <section id="images">
+        <h2>Image Gallery</h2>
+
+        <figure>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.4Ah-98si_AeOxJwO3NyY3gHaEo?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="A serene landscape with mountains and a lake." title="A peaceful nature scene." width="600" height="400">
+            <figcaption>A beautiful nature scene.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/Taj_Mahal_20180814141729.png" alt="An ancient historical monument." title="An impressive ancient monument." width="600" height="400">
+            <figcaption>An ancient monument.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://tse1.mm.bing.net/th/id/OIP.Sb_x66S-vhvIGYYvbcmS9QHaEK?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="A bustling city skyline at night." title="A vibrant cityscape." width="600" height="400">
+            <figcaption>A vibrant cityscape.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.pexels.com/photos/658687/pexels-photo-658687.jpeg?cs=srgb&dl=beautiful-bloom-blooming-658687.jpg&fm=jpg" alt="A close-up of a flower." title="A personal photo of a flower." width="600" height="400">
+            <figcaption>A close-up of a flower.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.pTdIStbpCMwQ2bhmMzabMAHaHa?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="A path winding through a dense forest." title="A peaceful forest path." width="600" height="400">
+            <figcaption>A tranquil forest path.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://wallpaperaccess.com/full/3340178.jpg" alt="A wide view of a majestic mountain range." title="Majestic mountain range." width="600" height="400">
+            <figcaption>Majestic mountain range.</figcaption>
+        </figure>
+    </section>
+
+    <hr>
+
+    <section id="audio">
+        <h2>Audio Section</h2>
+
+        <h3>Song 1 (Autoplay)</h3>
+        <p>A relaxing song that plays automatically when the page loads.</p>
+        <audio controls autoplay>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Song 2 (Loop)</h3>
+        <p>An upbeat track set to loop continuously.</p>
+        <audio controls loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Song 3 (Controls Only)</h3>
+        <p>A classic instrumental piece. Press play to listen.</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <hr>
+
+    <section id="video">
+        <h2>Video Section</h2>
+
+        <figure>
+            <h3>Video 1: Coding Session Demo</h3>
+            <p>This video shows a quick demonstration of a coding session. It has a poster image that appears before the video is played.</p>
+            <video controls width="640" height="360" poster="https://via.placeholder.com/640x360/f2d5a2/fff.png?text=Coding+Demo+Video+Poster">
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>A demo of a coding session.</figcaption>
+        </figure>
+
+        <figure>
+            <h3>Video 2: Explainer Video with Captions</h3>
+            <p>An educational video with English captions available for accessibility.</p>
+            <video controls width="640" height="360" poster="https://via.placeholder.com/640x360/a2bcf2/fff.png?text=Explainer+Video+Poster">
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4">
+                <track kind="captions" src="example-captions.vtt" srclang="en" label="English">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>An explainer video with subtitles.</figcaption>
+        </figure>
+    </section>
+
+    <hr>
+
+    <section id="embeds">
+        <h2>External Media Embeds</h2>
+
+        <h3>YouTube Video Embed</h3>
+        <p>An embedded YouTube video about HTML basics.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k-xS33kKz8c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h3>Google Map Embed</h3>
+        <p>A map of a hypothetical location for CodingGita campus.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.650821217826!2d72.87199271493635!3d21.15933688593457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f4a3d6f1c4f%3A0xc6e246e6a18f4a1!2sCodingGita!5e0!3m2!1sen!2sin!4v1628109315486!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <h3>Wikipedia Article Embed</h3>
+        <p>A snippet from the Wikipedia article on HTML.</p>
+        <iframe src="https://en.wikipedia.org/wiki/HTML" width="600" height="400"></iframe>
+    </section>
+
+    <hr>
+
+    <a href="#top">Back to Top</a>
+
+</body>
+</html>
